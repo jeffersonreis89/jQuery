@@ -7,7 +7,16 @@
         <script src="jquery-3.2.1.min.js"></script>
         <script>
 			$(function(e) {
-				
+                // // Informando qual elemento no array
+                // $("li:nth(2)").remove();
+                // // Informando que é o ultimo elemento
+                // $("li:last").remove();
+                // // Informando que é o primeiro elemento
+                // $("li:first").remove();
+                // // Com a class;
+                // $("li.especifico").remove();
+                $("li:last").replaceWith("<li>Curso BootStrap</li>");
+                $("ul").wrapAll("<div style='border:1px solid #Ccc'></dif>");
 			})
 		</script>        
     </head>
@@ -18,7 +27,7 @@
 		<ul>
         		
             <li>Curso HTML5 Essencial</li>
-            <li>Curso CSS3 Essencial</li>
+            <li class="especifico">Curso CSS3 Essencial</li>
             <li>Curso Javascript Essencial</li>
             <li>Curso jQuery Fundamental</li>
         </ul>
