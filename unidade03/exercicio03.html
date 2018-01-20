@@ -14,7 +14,14 @@
 		<script src="jquery-3.2.1.min.js"></script>
         <script>
 			$( function(e) {
-				
+                // todas as listas com class
+                $("li[class]").css("background-color","#FF9");
+                // //todas as listas com ID
+                $("li[id]").css("background-color","#FF98");
+                //listas especificas com class
+                $("li[class='verde']").css("background-color","blue");
+                // listas especificas com ID
+                $("li[id='texto2']").css("background-color","pink");
             });
 		</script>
     </head>
